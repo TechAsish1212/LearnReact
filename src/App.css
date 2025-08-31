@@ -35,6 +35,25 @@ h2{
   min-width: 120px;
 }
 
+.photo-container {
+  display: flex;
+  gap: 16px;
+  justify-content: center; /* Center the photos */
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  flex-shrink: 0; /* Prevent shrinking */
+}
+
+.photo-li{
+  list-style: none;
+  align-items: start;
+  text-align: center;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
